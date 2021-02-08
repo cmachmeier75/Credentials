@@ -1,0 +1,21 @@
+{
+    "name" : "cmachmeier75/credentials",
+    "description": "",
+    "license": "MIT",
+    "authors": [{
+      "name": "Christian Machmeier",
+      "email": "dev@ccnet.me"
+    }],
+    "type": "library",
+    "version": "0.0.1",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/cmachmeier75/Credentials"
+    }],
+    "autoload": {
+        "psr-4": {"cmachmeier75\\Credentials\\": "src/"}
+    },
+    "require": {
+        "monolog/monolog": "1.*"
+    }
+}
